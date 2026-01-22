@@ -1,21 +1,21 @@
-import logo from './logo.svg';
+import profile from './profile.jpeg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={profile} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Este es mi Hola Mundo de React - Cindy Reyes
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="http://www.utd.edu.mx"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          VISITAR EL SITIO WEB DE LA UTD
         </a>
       </header>
     </div>
