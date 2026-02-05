@@ -1,6 +1,6 @@
 {
-  "name": "evaluacion_parcial1",
-  "homepage": "https://cindy-reyes.github.io/evaluacion_parcial1",
+  "name": "examen_parcial1",
+  "homepage": "https://cindy-reyes.github.io/examen_parcial1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
