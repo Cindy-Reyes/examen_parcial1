@@ -5,6 +5,7 @@ import profile from './profile.jpeg';
 function App() {
   const [verDescargas, setVerDescargas] = useState(false);
   const nombreAlumno = "Cindy Alejandra reyes Arce ";
+  const imagenURL = `${process.env.PUBLIC_URL}/profile.jpeg`;
 
   if (verDescargas) {
     return (
@@ -45,7 +46,7 @@ function App() {
   return (
     <div className="pantalla-oscura">
       <div className="contenedor-perfil">
-        <img src={profile} alt="Perfil" className="foto-perfil-simple" />
+        <img src={imagenURL} alt="Perfil" className="foto-perfil-simple" />
         <h1 className="evaluacion-texto">EVALUACIÓN PARCIAL 1</h1>
         <p className="alumno-texto">Alumno: {nombreAlumno}</p>
         <div className="enlaces-inferiores">
@@ -55,6 +56,9 @@ function App() {
           <button onClick={() => setVerDescargas(true)} className="boton-enlace">
             Documentación Parcial 1
           </button>
+          <a href="https://cindy-reyes.github.io/parcial2/" target="_blank" rel="noreferrer" className="boton-enlace">
+            Documentación Parcial 2
+          </a>
         </div>
       </div>
     </div>
